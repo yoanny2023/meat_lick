@@ -14,7 +14,7 @@ function Reservation() {
   return (
     <div>
      {!menuOpen ?
-     (<div className='flex flex-col sm:grid xl:grid-cols-2 gap-2 bg-[#0A0B0A] sm:min-h-screen lg:h-screen p-3 bg-center bg-cover 
+     (<div className='flex flex-col min-h-screen xl:grid xl:grid-cols-2 xl:h-screen  gap-2 bg-[#0A0B0A] p-3 bg-center bg-cover 
       overflow-x-hidden sm:overflow-hidden w-full' 
       style={{backgroundImage:`url(${bg_tile.src})`}}>
       <div className='text-white bg-center bg-cover rounded-xl 
