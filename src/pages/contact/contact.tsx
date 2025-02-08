@@ -31,12 +31,12 @@ function Contact() {
       />
       </div>
       <div className='flex flex-col gap-3 text-white p-3 border border-dashed border-zinc-500 rounded-xl'>
-      <div className="flex flex-col md:flex-row gap-2">
+      <div className="flex flex-col md:grid md:grid-cols-[1fr,1fr] gap-2">
         <ContactDetail >
           <div className={`flex flex-col justify-center items-center p-2 h-full rounded-lg text-maintext border border-zinc-500 ${forum.className}`} >
             <div className="flex gap-1 justify-center items-center ">
             {<IconArrowRightCircle size={32} stroke={1} />}
-            <h2 className='text-2xl'>OPENING HOURS</h2>
+            <h2 className='text-2xl'>OPENNING HOURS</h2>
             {<IconArrowLeftCircle size={32} stroke={1} />}
             </div>  
             <div className='flex flex-col gap-1'>
@@ -55,7 +55,7 @@ function Contact() {
         <div className='flex flex-col justify-center items-center gap-2 '>
         <div className="flex gap-1 justify-center items-center ">
         {<IconArrowRightCircle size={32} stroke={1} />}
-        <h2 className='text-2xl'>OPENING HOURS</h2>
+        <h2 className='text-2xl'>GET IN TOUCH</h2>
         {<IconArrowLeftCircle size={32} stroke={1} />}
        </div>
         <div className='flex gap-2'>

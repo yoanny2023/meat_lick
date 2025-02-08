@@ -8,10 +8,10 @@ import img4 from "@/assets/lamp_chpo2.jpg";
 function CardImage() {
   return (
     <div className='grid grid-cols-2 grid-rows-2 gap-2 bg-[#0A0B0A]'>
-      <Image className='object-cover w-[300px] h-[150px] rounded-md' src={img1} width={1024} height={1024} alt='img1' />
-      <Image className='object-cover w-[300px] h-[150px] rounded-md' src={img2} width={1024} height={1024} alt='img2' />
-      <Image className='object-cover w-[300px] h-[150px] rounded-md' src={img3} width={1024} height={1024} alt='img3' />
-      <Image className='object-cover w-[300px] h-[150px] rounded-md' src={img4} width={1024} height={1024} alt='img4' />
+      <Image className='object-cover w-[350px] h-[150px] rounded-md' src={img1} width={1024} height={1024} alt='img1' />
+      <Image className='object-cover w-[350px] h-[150px] rounded-md' src={img2} width={1024} height={1024} alt='img2' />
+      <Image className='object-cover w-[350px] h-[150px] rounded-md' src={img3} width={1024} height={1024} alt='img3' />
+      <Image className='object-cover w-[350px] h-[150px] rounded-md' src={img4} width={1024} height={1024} alt='img4' />
     </div>
   )
 }
